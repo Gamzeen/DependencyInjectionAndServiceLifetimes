@@ -36,12 +36,4 @@ Projeyi klonlayın
 ```bash
   git clone https://github.com/Gamzeen/DependencyInjectionAndServiceLifetimes.git
 ```
-## Kaynakça
- https://henriquesd.medium.com/dependency-injection-and-service-lifetimes-in-net-core-ab9189349420
-https://www.c-sharpcorner.com/article/dependency-injection-service-lifetimes/
-https://stackoverflow.com/questions/38138100/addtransient-addscoped-and-addsingleton-services-differences
-https://www.buraksenyurt.com/post/asp-net-core-dependency-lifetimes
-https://gokhana.medium.com/dependency-injection-nedir-nas%C4%B1l-uygulan%C4%B1r-kod-%C3%B6rne%C4%9Fiyle-44f4b0d576e4
-https://endjin.com/blog/2022/09/service-lifetimes-in-aspnet-core
-https://medium.com/kodcular/asp-net-core-dependency-lifetimes-52cc89043398
-https://www.c-sharpcorner.com/article/understanding-addtransient-vs-addscoped-vs-addsingleton-in-asp-net-core/#:~:text=Transient%20lifetime%20services%20are%20created,best%20for%20lightweight%2C%20stateless%20services.&text=Scoped%20lifetime%20services%20are%20created%20once%20per%20request.
+
