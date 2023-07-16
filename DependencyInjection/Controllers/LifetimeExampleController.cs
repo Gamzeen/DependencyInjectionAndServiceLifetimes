@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace DependencyInjection.Controllers;
 
 [ApiController]
-[Route("iocExample")]
-public class IOCExampleController : ControllerBase
+[Route("lifetimes")]
+public class LifetimeExampleController : ControllerBase
 {
     private readonly IExampleSingletonService _exampleSingletonService1;
     private readonly IExampleSingletonService _exampleSingletonService2;
@@ -17,7 +17,7 @@ public class IOCExampleController : ControllerBase
     private readonly IExampleTransientService _exampleTransientService1;
     private readonly IExampleTransientService _exampleTransientService2;
     
-    public IOCExampleController(IExampleSingletonService exampleSingletonService1,
+    public LifetimeExampleController(IExampleSingletonService exampleSingletonService1,
         IExampleSingletonService exampleSingletonService2,IExampleScopedService exampleScopedService1,
         IExampleScopedService exampleScopedService2, IExampleTransientService exampleTransientService1,
         IExampleTransientService exampleTransientService2)
