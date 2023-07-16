@@ -15,7 +15,8 @@ Proje, aşağıdaki bileşenleri içerir:
 * ServiceController: API taleplerini yöneten ve servislerle iletişim kuran bir controller.
 
 <img width="849" alt="Screenshot 2023-07-15 at 18 23 54" src="https://github.com/Gamzeen/DependencyInjectionAndServiceLifetimes/assets/74109466/a06c4606-661c-4f10-9285-50e6e8872c61">
-<img width="602" alt="Screenshot 2023-07-16 at 13 47 46" src="https://github.com/Gamzeen/DependencyInjectionAndServiceLifetimes/assets/74109466/cb46b0fc-6625-4853-9f02-cf2327547328">
+
+<img width="543" alt="Screenshot 2023-07-16 at 18 58 07" src="https://github.com/Gamzeen/DependencyInjectionAndServiceLifetimes/assets/74109466/cbb8a5ca-fce4-4591-988d-2cc7ecdfdd48">
 
 Proje başlatıldığında, ServiceController, API'ye 2 kez talep gönderirseniz elde edeceğiniz response’lar şu şekilde olur : 
 
