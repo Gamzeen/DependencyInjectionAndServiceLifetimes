@@ -37,3 +37,45 @@ Projeyi klonlayın
   git clone https://github.com/Gamzeen/DependencyInjectionAndServiceLifetimes.git
 ```
 
+
+
+
+# Service Lifetimes Project
+
+This project is a simple application that aims to compare the responses by sending two requests to a Controller in an API. The project includes three different types of services (transient, scoped, singleton) and a controller.
+
+# Project Description
+
+When using Dependency Injection, the creation and lifecycle of services play an important role. In this project, we will examine three different service lifetimes: Singleton, Scoped, and Transient.
+
+The Service Lifetimes project is designed to understand how an API behaves with different service lifetimes and to compare how these services respond to requests. In the project, two requests are sent to the same API, and the responses of each request are compared. This allows us to observe the differences between different service lifetimes (transient, scoped, singleton).
+
+# How Does It Work?
+
+The project includes the following components:
+
+SingletonService: Creates a singleton object on an application-wide basis. It sends that object to all requests.
+ScopedService: Creates an object per request and sends that object to all requests within the request pipeline.
+TransientService: Creates an object for each individual request and sends it.
+ServiceController: Manages API requests and communicates with the services.
+
+<img width="540" alt="Screenshot 2023-07-16 at 19 00 25" src="https://github.com/Gamzeen/DependencyInjectionAndServiceLifetimes/assets/74109466/3db305ba-dbba-4064-ab3c-bd4c9e365436">
+
+<img width="551" alt="Screenshot 2023-07-16 at 19 01 17" src="https://github.com/Gamzeen/DependencyInjectionAndServiceLifetimes/assets/74109466/6f2a8270-57f6-4f7e-9334-e7e68d41a481">
+
+When the project is launched, if you send two requests to the API, the responses you would obtain would be as follows:
+
+Response 1 :
+<img width="479" alt="Screenshot 2023-07-16 at 17 44 48" src="https://github.com/Gamzeen/DependencyInjectionAndServiceLifetimes/assets/74109466/5abc02b3-6bf8-4576-abf8-ab76efb1b6e5">
+
+
+Request 2 : 
+<img width="483" alt="Pasted Graphic" src="https://github.com/Gamzeen/DependencyInjectionAndServiceLifetimes/assets/74109466/659bc5e8-7dba-4f5a-bf9f-56889f7b7be5">
+
+## Setup
+
+Clone the project
+
+```bash
+  git clone https://github.com/Gamzeen/DependencyInjectionAndServiceLifetimes.git
+```
